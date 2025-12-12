@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mostrar numeros inicio y fin</title>
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Mostrar numeros desde inicio hasta fin</h1>
+        <div class="mb-3">
+            <label for="input_inicio" class="form-label">Numero de inicio:</label>
+            <input type="number" class="form-control" id="input_inicio" placeholder="Ingrese el numero de inicio">
+        </div>
+        <div class="mb-3">
+            <label for="input_fin" class="form-label">Numero de fin:</label>
+            <input type="number" class="form-control" id="input_fin" placeholder="Ingrese el numero de fin">
+        </div>
+        <div class="d-grid gap-2">
+            <button
+                type="button"
+                id="btn_mostrar_numeros"
+                class="btn btn-primary"
+            >
+                Mostrar numeros
+            </button>
+        </div>
+        
+        <p id="txt_resultado2"></p>
+
+        <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+        <script src="/public/js/mostrarnumerosinicioyfin.js"></script>
+    
+</body>
+</html>
